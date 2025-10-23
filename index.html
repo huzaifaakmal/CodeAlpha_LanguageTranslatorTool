@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Translation Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Language Translation Tool</h1>
+
+    <textarea id="inputText" placeholder="Enter text to translate..."></textarea>
+
+    <div class="language-select">
+      <div class="lang-box">
+        <label for="fromLang">From:</label>
+        <select id="fromLang">
+          </select>
+      </div>
+
+      <div class="lang-box">
+        <label for="toLang">To:</label>
+        <select id="toLang">
+          </select>
+      </div>
+    </div>
+
+    <button id="translateBtn">Translate</button>
+
+    <textarea id="outputText" placeholder="Translation will appear here..." readonly></textarea>
+
+    <div class="buttons">
+      <button id="copyBtn">📋 Copy</button>
+      <button id="speakBtn">🔊 Speak</button>
+    </div>
+
+    <footer>© 2025 All rights reserved by <strong>Huzaifa Akmal</strong></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
