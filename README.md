@@ -5,7 +5,7 @@ A simple and clean web-based language translation tool built with HTML, CSS, and
 <img width="1236" height="820" alt="image" src="https://github.com/user-attachments/assets/018c0266-8d1f-4f0c-ad04-4c9021ca32b3" />
 
 
-*(Note: You will need to take a screenshot of your running application and save it as `screenshot.png` in your repository for the image above to display.)*
+
 
 ---
 
